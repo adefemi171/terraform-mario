@@ -1,6 +1,8 @@
-FROM tomcat:9
+FROM tomcat:latest
 
-MAINTAINER github.com/PengBAI
+LABEL MAINTAINER="github.com/adefemi171" \
+      EMAIL="adefemi171@gmail.com" \
+      VERSION="1.0"
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
 

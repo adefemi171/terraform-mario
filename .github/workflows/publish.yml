@@ -33,6 +33,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/arm64/v8,linux/amd64,linux/arm64# used this to work on a specific platform
+          platforms: linux/arm64/v8,linux/amd64,linux/arm64 # used this to work on a specific platform
           push: true
           tags: ghcr.io/adefemi171/mario-terraform:latest

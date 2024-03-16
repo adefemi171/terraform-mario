@@ -10,7 +10,6 @@ module "mario_cluster" {
   cluster_disk_size  = var.cluster_disk_size
   cluster_memory     = var.cluster_memory
   cluster_nodes      = var.cluster_nodes
-  # insecure_registry  = var.insecure_registry
 }
 
 resource "kubernetes_deployment" "mario_deployment" {

@@ -32,5 +32,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
+          platforms: linux/arm64/v8
           push: true
-          tags: ghcr.io/adefemi171/mario-terraform:latest, ghcr.io/adefemi171/mario-terraform:v1.0.0
+          tags: ghcr.io/adefemi171/mario-terraform:latest

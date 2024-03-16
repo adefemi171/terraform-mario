@@ -33,4 +33,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/adefemi171/mario-terraform:latest, ghcr.io/adefemi171/mario-terraform:$(date +'%Y-%m-%d-%H-%M-%S')
+          tags: ghcr.io/adefemi171/mario-terraform:latest, ghcr.io/adefemi171/mario-terraform:v1.0.0

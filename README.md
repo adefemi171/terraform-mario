@@ -14,11 +14,10 @@ docker run -d -p 8600:8080 ghcr.io/adefemi171/mario-terraform:latest
 
 ### Requirements for Minikube
 
-The following tools are required for deploying GitHub Actions Runner Controller on Minikube:
+The following tools are required for deploying the mario game on Minikube:
 
 - `docker` (up and running)
-- `terraform` (1.0+)
-- `helm` (3.0+)
+- `terraform`
 - `minikube`
 
 The bootstrapping and configuration of cluster can be performed with the command:

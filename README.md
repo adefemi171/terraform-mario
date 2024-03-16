@@ -4,7 +4,7 @@ Infinite Mario in HTML5 JavaScript - using Canvas and Audio elements
 
 ## Description
 
-Run with mapping container's 8080 port, and use your navigator http://localhost:8600:
+Run with mapping container's 8080 port, and visit `http://localhost:8600` on your browser to play the game:
 
 ```sh
 docker run -d -p 8600:8080 ghcr.io/adefemi171/mario-terraform:latest
@@ -45,3 +45,5 @@ The following command can be used to port-forward the service:
 ```sh
 kubect port-forward <pod_name> 8600:8080
 ```
+
+Then visit `http://localhost:8600` on your browser to play the game.

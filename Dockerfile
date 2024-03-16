@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM --platform=linux/arm64/v8 tomcat:latest
 
 LABEL MAINTAINER="github.com/adefemi171" \
       EMAIL="adefemi171@gmail.com" \
